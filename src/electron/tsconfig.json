@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "strict": true, // require strict type check (null save)
+        "target": "esnext", // use the latest es syntax
+        "module": "nodenext", // use the latest node module format
+        "outDir": "../../dist-electron", // output the compiled code to the dist-electron folder
+        "skipLibCheck": true // skip the type check for the node_modules folder
+    }
+}
